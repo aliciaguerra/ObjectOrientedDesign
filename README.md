@@ -1,4 +1,11 @@
 # Object Oriented Design
 Object-oriented design is the process of planning a system of interacting objects for the purpose of solving a software problem.
 #Overview
-An object contains encapsulated data and procedures grouped together to represent an entity. The "object interface" defines how the object can be interacted with. An object-oriented program is described by the interaction of these objects.
+An object contains encapsulated data and procedures grouped together to represent an entity. The "object interface" defines how the object can be interacted with. An object-oriented program is described by the interaction of these objects. Object-oriented design is the discripline of defining the objects and their interactions to solve a problem that was identified and documented during the object-oriented analysis. <br>
+What follows is a description of the class-based subset of object-oriented design, which does not include object prototype-based approaches where objects are not typically obtained by instancing classes but by cloning other (prototype) objects. Onject-oriented design is a method of design encompassing the process of object-oriented decomposition and a notation for depicting both logical and physical as well as state and dynamic models of the system under design. 
+#Object-Oriented Design Topics
+<b>Input Sources for Object-Oriented Desing</b><br>
+The input for object-oriented design is provided by the output of object-oriented analysis. Realize that an output artifact does not need to be completely developed to serve as input of object-oriented design, analysis, and design may occur in parallel, and in practice, the results oif one activity can feed the other in a short feedback cycle through an iterative process. Both analysis and design can be performed incrementally, and the artifacts can be continually grown instead of completely developed in one shot. <br>
+Some typical input artifacts for onject-oriented design are:
+- Conceptual model: The result of object-oriented analysis, it captures concepts in the problem domain. The conceptual model is explicitly chosen to be independent of impklementation details, such as concurrency or data storage.
+- - Use case: A description of sequences of events that, taken together, lead to a system doing something useful. Each use case provides one or more scenarios that convey how the system shoiuld interact with the users called actors to achieve a specific business goal or function. Use case actors may be end users or other systems.
